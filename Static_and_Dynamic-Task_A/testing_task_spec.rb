@@ -16,13 +16,13 @@ class TestTask < Minitest::Test
     assert_equal(result, actual)
   end
 
-  def test_max_a_greater()
+  def test_max__a_greater()
     result = 100
     actual = max(100, 1)
     assert_equal(result, actual)
   end
 
-  def test_max_b_greater()
+  def test_max__b_greater()
     result = 100
     actual = max(1, 100)
     assert_equal(result, actual)
