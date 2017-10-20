@@ -19,7 +19,7 @@ def max (a, b)
   end
 end
 
-def looper
+def looper()
   for i in 1..10
   puts i
   end
